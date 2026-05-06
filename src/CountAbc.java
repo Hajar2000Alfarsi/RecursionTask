@@ -6,6 +6,9 @@ public class CountAbc {
 
         String firstThree = str.substring(0, 3);
 
+        if (firstThree.equals("abc") || firstThree.equals("aba")){
+            return 1 + countAbc(str.substring(1));
+        }
     }
 }
 
