@@ -3,10 +3,10 @@ public class FactorialProgram {
 
     }
 
-    public static int factorial(int n) {
+    public int Factorial(int n) {
         if (n <= 1) {
             return 1;
         }
-        return n * factorial(n-1);
+        return n * Factorial(n-1);
     }
 }
