@@ -6,5 +6,9 @@ public class FactorialProgram {
         int result2 = fact.factorial(2);
         int result3 = fact.factorial(3);
 
+        System.out.println("Factorial of 1 = " + result1);
+        System.out.println("Factorial of 2 = " + result2);
+        System.out.println("Factorial of 3 = " + result3);
+
     }
 }
