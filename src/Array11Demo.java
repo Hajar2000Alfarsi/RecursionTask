@@ -10,6 +10,8 @@ public class Array11Demo {
         int result2 = array11.array11(arr2, 0);
         int result3 = array11.array11(arr3, 0);
 
-
+        System.out.println("array11([1, 2, 11], 0) = " + result1);
+        System.out.println("array11([11, 11], 0) = " + result2);
+        System.out.println("array11([1, 2, 3, 4], 0) = " + result3);
     }
 }
