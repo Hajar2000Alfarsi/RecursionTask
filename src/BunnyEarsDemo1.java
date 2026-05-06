@@ -6,5 +6,8 @@ public class BunnyEarsDemo1 {
         int result2 = bunnyEars1.bunnyEars(1);
         int result3 = bunnyEars1.bunnyEars(2);
 
+        System.out.println("bunnyEars(0) → " + result1);
+        System.out.println("bunnyEars(1) → " + result2);
+        System.out.println("bunnyEars(2) → " + result3);
     }
 }
