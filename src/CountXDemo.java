@@ -6,6 +6,9 @@ public class CountXDemo {
         int result2 = countX.countX("xhixhix");
         int result3 = countX.countX("hi");
 
+        System.out.println("countX(\"xxhixx\") -->" + result1);
+        System.out.println("countX(\"xhixhix\") -->" + result2);
+        System.out.println("countX(\"hi\") -->" + result3);
 
     }
 }
