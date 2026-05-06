@@ -11,5 +11,6 @@ public class PairStar {
             return firstChar + "*" + pairStar(str.substring(1));
         }
 
+        return firstChar + pairStar(str.substring(1));
     }
 }
