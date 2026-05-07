@@ -6,7 +6,9 @@ public class CountHiDemo {
         int result2 = countHi.countHi("xhixhix");
         int result3 = countHi.countHi("hi");
 
-
+        System.out.println("countHi(\"xxhixx\") → " + result1);
+        System.out.println("countHi(\"xhixhix\") → " + result2);
+        System.out.println("countHi(\"hi\") → " + result3);
 
     }
 }
