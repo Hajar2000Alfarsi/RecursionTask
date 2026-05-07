@@ -7,5 +7,9 @@ public class StrCopies {
         if (str.length() < sub.length()) {
             return false;
         }
+
+        if (str.substring(0,sub.length()).equals(sub)) {
+
+        }
     }
 }
