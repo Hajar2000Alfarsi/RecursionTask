@@ -4,6 +4,8 @@ public class Fibonacci {
             return 0;
         }
 
-
+        if (n == 1) {
+            return 1;
+        }
     }
 }
