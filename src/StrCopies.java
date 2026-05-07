@@ -12,6 +12,6 @@ public class StrCopies {
             return strCopies(str.substring(1), sub, n-1);
         }
 
-        return strCopies(str.substring(1),sub,1);
+        return strCopies(str.substring(1),sub,n);
     }
 }
