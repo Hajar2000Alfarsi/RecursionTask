@@ -3,5 +3,9 @@ public class ParenBit {
         if (str.startsWith("(") && str.endsWith(")")) {
             return str;
         }
+
+        if (str.charAt(0) != '(') {
+
+        }
     }
 }
